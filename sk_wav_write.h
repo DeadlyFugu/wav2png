@@ -36,7 +36,7 @@ int sk_wav_write_file(char const* path, int channels, int sample_rate, int sampl
 
 #ifdef SK_WAV_WRITE_IMPLEMENTATION
 #include <stdio.h>
-#include <sandbox.h>
+// #include <sandbox.h>
 #include <stdint.h>
 
 struct wav_header_t {
